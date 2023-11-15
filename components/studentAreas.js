@@ -1,4 +1,4 @@
-import renderToDOM from './renderToDom';
+import renderToDOM from '../utils/renderToDom';
 
 const studentAreas = () => {
   const domString = `<div id="students">No Students</div>
