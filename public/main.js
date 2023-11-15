@@ -1,13 +1,13 @@
 // import '../styles/main.scss'; // You have to import your styles for them to work. Comment in this line
 import '../styles/main.scss';
 import { students, voldysArmy } from '../utils/sample_data/data';
-import form from '../components/form';
-import htmlStructure from '../components/HTMLstructure';
-import filterBtnRow from '../utils/filterBtnRow';
-import studentAreas from '../utils/studentAreas';
-import startSortingBtn from '../utils/startbtn';
+import { form } from '../components/form';
+import htmlStructure from '../components/htmlStructure';
+import filterBtnRow from '../components/filterBtnRow';
+import studentAreas from '../components/studentAreas';
+import startSortingBtn from '../components/startbtn';
 import studentsOnDom from '../utils/sample_data/studentsOnDom';
-import header from '../utils/header';
+import header from '../components/header';
 
 const events = () => {
   // get form on the DOM on button click

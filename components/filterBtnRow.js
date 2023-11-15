@@ -1,4 +1,4 @@
-import renderToDOM from './renderToDom';
+import renderToDOM from '../utils/renderToDom';
 
 const filterBtnRow = () => {
   const domString = `<div class="btn-group" role="group" aria-label="Basic example">
